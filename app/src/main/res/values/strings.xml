@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CarAndPeopleProject</string>
+    <string name="button_main_activity_add_info">Добавить владельца и автомобиль</string>
+    <string name="activity_add_edit_text_fio">ФИО</string>
+    <string name="activity_add_edit_text_birthday">Год рождения</string>
+    <string name="activity_add_edit_text_adress">Адресс проживания</string>
+    <string name="activity_add_edit_text_marka_auto">Марка автомобиля</string>
+    <string name="activity_add_edit_text_model_auto">Модель автомобиля</string>
+    <string name="activity_add_edit_text_year_auto">Год выпуска авто</string>
+    <string name="activity_add_edit_text_serial_number">Номер кузова</string>
+    <string name="activity_add_edit_text_state_number">Госс номер</string>
+    <string name="activity_add_edit_text_comment">Комментарий</string>
+    <string name="activity_add_comment">Комментарий</string>
+    <string name="activity_add_button_add">Добавить информацию</string>
 </resources>
