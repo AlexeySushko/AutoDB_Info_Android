@@ -18,11 +18,13 @@
         <Button
             android:id="@+id/activity_main_button_add_info"
             android:text="@string/button_main_activity_add_info"
+            android:textSize="13dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <Button
             android:id="@+id/activity_main_button_clear_all"
             android:text="@string/button_main_activity_clear_all"
+            android:textSize="13dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

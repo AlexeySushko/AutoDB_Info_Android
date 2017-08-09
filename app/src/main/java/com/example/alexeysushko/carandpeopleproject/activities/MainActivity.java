@@ -183,6 +183,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 //подключаемся к БД
                 SQLiteDatabase db = dbHelper.getWritableDatabase();
                 db.delete("mytable", "id = " + idDelete, null );
+                Toast.makeText(getApplicationContext(), "Запись удалена" , Toast.LENGTH_SHORT).show();
                 Log.v("tag", "--->>>> УДАЛЕНО <<<<<---");
                 dbHelper.close();
                 onResume();
